@@ -1,0 +1,20 @@
+-- Configuração do Git
+git config --global user.name EnzoZago10
+git config --global user.email enzozago2010@gmail.com
+
+-- Criar um projeto vazio
+npx create-expo-app@latest SilvinhaHealthApp --template blank
+
+-- Toda aula ao começar
+cd SilvinhaHealthApp
+
+-- Bibliotecas
+npx expo install expo-router react-native-safe-area-context react-native-screens expo-linking expo-constants expo-status-bar
+
+-- app.json:
+"userInterfaceStyle": "light",
+"scheme": "silvinha-health",
+"splash": {
+
+-- package.json, mudar o main
+"main": "expo-router/entry",
