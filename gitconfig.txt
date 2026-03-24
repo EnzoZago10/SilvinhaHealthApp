@@ -18,3 +18,7 @@ npx expo install expo-router react-native-safe-area-context react-native-screens
 
 -- package.json, mudar o main
 "main": "expo-router/entry",
+
+-- Restaurar o projeto após o clone
+cd SilvinhaHealthApp
+npm i
