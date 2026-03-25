@@ -1,23 +1,21 @@
 {
-  "name": "silvinhahealthapp",
+  "name": "SilvinhaHealthApp",
   "version": "1.0.0",
   "main": "expo-router/entry",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
-    "web": "expo start --web"
+    "android": "expo start --android"
   },
   "dependencies": {
-    "expo": "~55.0.7",
-    "expo-constants": "~55.0.8",
-    "expo-linking": "~55.0.7",
-    "expo-router": "~55.0.6",
-    "expo-status-bar": "~55.0.4",
-    "react": "19.2.0",
-    "react-native": "0.83.2",
-    "react-native-safe-area-context": "~5.6.2",
-    "react-native-screens": "~4.23.0"
-  },
-  "private": true
+    "expo": "~51.0.0",
+    "expo-router": "~3.5.0",
+    "expo-status-bar": "1.11.1",
+    "expo-constants": "15.4.5",
+    "expo-linking": "6.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.74.5",
+    "react-native-safe-area-context": "4.8.2",
+    "react-native-screens": "3.29.0"
+  }
 }
